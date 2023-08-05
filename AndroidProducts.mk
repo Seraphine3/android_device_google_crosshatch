@@ -28,4 +28,6 @@ COMMON_LUNCH_CHOICES := \
     aosp_blueline-userdebug \
     aosp_crosshatch_vf-userdebug \
     lineage_blueline-userdebug \
-    lineage_crosshatch-userdebug
+    lineage_blueline-user \
+    lineage_crosshatch-userdebug \
+    lineage_crosshatch-user

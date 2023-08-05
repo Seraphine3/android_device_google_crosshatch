@@ -18,6 +18,17 @@ PRODUCT_BRAND := google
 PRODUCT_MODEL := Pixel 3
 PRODUCT_NAME := lineage_blueline
 
+# Google Services Package 
+WITH_GMS := true
+TARGET_USE_GOOGLE_TELEPHONY := true
+TARGET_SUPPORTS_QUICK_TAP := true
+
+# Rising Configuration 
+RISING_MAINTAINER := lunaire
+TARGET_ENABLE_BLUR := true
+TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_USE_PIXEL_FINGERPRINT := false
+
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2160
 TARGET_SCREEN_WIDTH := 1080

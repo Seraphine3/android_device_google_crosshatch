@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-# Inherit some common Lineage stuff.
+# Inherit some common Rising Tech stuff.
 TARGET_DISABLE_EPPE := true
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
@@ -17,6 +17,17 @@ include device/google/crosshatch/crosshatch/device-lineage.mk
 PRODUCT_BRAND := google
 PRODUCT_MODEL := Pixel 3 XL
 PRODUCT_NAME := lineage_crosshatch
+
+# Google Services Package 
+WITH_GMS := true
+TARGET_USE_GOOGLE_TELEPHONY := true
+TARGET_SUPPORTS_QUICK_TAP := true
+
+# Rising
+RISING_MAINTAINER := lunaire
+TARGET_ENABLE_BLUR := true
+TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_USE_PIXEL_FINGERPRINT := false
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2960
